@@ -1,0 +1,8 @@
+__runtime_loader.js
+__devtools.tsx
+__jsx-dev-runtime.ts
+
+node_modules/
+.next/
+.env*.local
+.DS_Store

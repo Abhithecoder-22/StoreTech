@@ -1,0 +1,33 @@
+@import 'tailwindcss';
+
+@theme inline {
+  --font-sans: 'Geist', 'Geist Fallback';
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: #1a1a1a;
+  --color-foreground: #fafafa;
+  --color-card: #252525;
+  --color-card-foreground: #fafafa;
+  --color-primary: #ffffff;
+  --color-primary-foreground: #1a1a1a;
+  --color-secondary: #404040;
+  --color-secondary-foreground: #fafafa;
+  --color-muted: #404040;
+  --color-muted-foreground: #999999;
+  --color-accent: #ffffff;
+  --color-accent-foreground: #1a1a1a;
+  --color-border: #333333;
+  --color-input: #333333;
+  --color-ring: #808080;
+  --color-destructive: #ef4444;
+  --color-destructive-foreground: #ffffff;
+  --radius: 0.5rem;
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
